@@ -1,10 +1,12 @@
 # SVGLogoMaker
 
+Video Link : https://youtu.be/bZelFNwwSrA
+
 Protected by a ![Static Badge](https://img.shields.io/badge/MIT-b06402) [License](#license)
 
 ## Description
 
-This app is used to make simple svg logos and was all around simple. I mainly wanted to learn about the testing proceudure and sytax here. I had a lot of issues with it. Im supper hapy with how it came out and am eager to learn more about the testing procedure>
+This app is used to make simple svg logos and was all around simple. I mainly wanted to learn about the testing proceudure and sytax here. I had a lot of issues with it. Im supper hapy with how it came out and am eager to learn more about the testing procedure>. I didnt use the synatx provided for a test I made my own with diffrent synatx.
 
 ## Table of Contents
 

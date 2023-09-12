@@ -13,9 +13,11 @@ var indexQuestion = 0;
 
 const data = {
 
-  color : "",
+  SHcolor : "",
   
-  text : ""
+  text : "",
+
+  TXcolor : ""
 
 }
 
@@ -42,7 +44,19 @@ const QuestionObject = [
 
         type: 'input',
   
-        message: 'What color do yoy want that shape to be ',
+        message: 'What color do you want that shape to be (for hex decimal put a # in front)',
+  
+        name: "answer"
+  
+      }
+            
+      ,
+
+      {
+
+        type: 'input',
+  
+        message: 'What color do you want the text to be (for hex decimal put a # in front)',
   
         name: "answer"
   
@@ -64,9 +78,11 @@ const QuestionObject = [
 
 ShapeFile = function(shape){
 
-  data.text = answers[2];
+  data.text = answers[3];
 
-  data.color = answers[1];
+  data.SHcolor = answers[1];
+
+  data.TXcolor = answers[2];
 
   if (shape === "Square"){
 
